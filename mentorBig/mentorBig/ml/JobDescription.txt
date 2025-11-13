@@ -1,0 +1,48 @@
+Job Description:
+We are looking for a highly motivated Machine Learning/Deep Learning Intern to join our AI team. As an intern, you will have the opportunity to work on cutting-edge projects involving deep learning, computer vision, natural language processing (NLP), or other AI applications. You will collaborate with experienced engineers and researchers to develop and optimize models that solve real-world problems.
+
+Responsibilities:
+Assist in the research, development, and implementation of machine learning and deep learning models.
+
+Work with large datasets, perform data preprocessing, and enhance data pipelines.
+
+Experiment with state-of-the-art architectures such as CNNs, RNNs, Transformers, or GANs.
+
+Optimize model performance, including hyperparameter tuning and model compression.
+
+Implement and evaluate algorithms in Python using TensorFlow, PyTorch, or other ML frameworks.
+
+Collaborate with cross-functional teams to integrate AI models into production environments.
+
+Document findings, write reports, and present results to the team.
+
+Requirements:
+Currently pursuing or recently completed a Bachelor's/Master’s/Ph.D. in Computer Science, Artificial Intelligence, Data Science, or a related field.
+
+Strong understanding of machine learning fundamentals and deep learning architectures.
+
+Experience with Python and ML libraries such as TensorFlow, PyTorch, Scikit-learn, etc.
+
+Knowledge of data preprocessing techniques and working with structured/unstructured data.
+
+Familiarity with cloud computing platforms (AWS, GCP, Azure) is a plus.
+
+Strong problem-solving skills and a passion for AI research and development.
+
+Ability to work independently and collaboratively in a fast-paced environment.
+
+Preferred Qualifications:
+Prior experience in AI research projects or relevant internships.
+
+Contributions to open-source AI projects or published research papers.
+
+Experience with deploying ML models in production (Docker, Kubernetes, etc.).
+
+Benefits:
+Hands-on experience with real-world AI applications.
+
+Mentorship from experienced AI engineers and researchers.
+
+Opportunity to publish research or contribute to open-source projects.
+
+Flexible work environment with potential full-time opportunities.
