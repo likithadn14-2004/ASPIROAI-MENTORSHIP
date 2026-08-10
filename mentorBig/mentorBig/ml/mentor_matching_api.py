@@ -154,32 +154,16 @@ def get_gemini_client():
 def generate_with_gemini(prompt: str) -> str:
     """Generate content using Google Gemini"""
     try:
-        client = get_gemini_client()
-        model = "gemini-2.5-flash"
-        
-        contents = [
-            types.Content(
-                role="user",
-                parts=[types.Part.from_text(text=prompt)],
-            ),
-        ]
-        
-        generate_content_config = types.GenerateContentConfig(
-            response_mime_type="text/plain",
-        )
-        
-        response_chunks = []
-        for chunk in client.models.generate_content_stream(
-            model=model,
-            contents=contents,
-            config=generate_content_config,
-        ):
-            response_chunks.append(chunk.text)
-        
-        return "".join(response_chunks)
-    
+        get_gemini_client()
+        model = genai.GenerativeModel("gemini-pro")
+
+        response = model.generate_content(prompt)
+        return response.text
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error with Gemini: {str(e)}")
+
+
 
 def analyze_student_mentor_similarity(student: StudentInput, mentors: List, mentor_type: str) -> List[MentorResponse]:
     """Analyze similarity between student and mentors using AI"""

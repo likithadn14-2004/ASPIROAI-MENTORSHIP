@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment / secrets
+.env
+
+# Uploaded files
+uploads/
+
+# Local databases
+*.db
+
+# Database configuration containing credentials
+mentorBig/mentorBig/backend/config/db.js

@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 nltk.download("punkt")
 nltk.download("stopwords")
 
-genai.configure(api_key="AIzaSyALQl3IlQPXT_dD8k5kvBA9j3aXenmfDAg")
+genai.configure(api_key="AIzaSyDe-eghhWxjuF67amMzRXPYRCB-jEiXeSA")
 
 generation_config = {
     "temperature": 1,
